@@ -1,0 +1,211 @@
+GUÍA DE TÉCNICAS DE PROMPTING
+Para estudiantes universitarios · Dos niveles: Básico y Avanzado
+
+Esta guía te enseña a comunicarte mejor con la IA. Cuanto más claro y estructurado sea tu prompt, mejor será la respuesta. Las técnicas están divididas en dos niveles: Básicas (funcionan para cualquier carrera) y Avanzadas (para tareas más complejas o técnicas).
+
+==============================================================
+TIER 1 — TÉCNICAS BÁSICAS (para todos)
+==============================================================
+
+--------------------------------------------------------------
+TÉCNICA 1: Zero-Shot Prompting
+--------------------------------------------------------------
+
+DESCRIPCIÓN: La técnica más simple: le pides algo directamente a la IA sin darle ejemplos ni contexto extra. Funciona bien para tareas factuales y directas.
+
+ÚSALA CUANDO: Definiciones, traducciones, resúmenes cortos, preguntas de cultura general.
+
+NO LA USES CUANDO: Tareas con formato específico o razonamiento complejo — puede dar resultados inconsistentes.
+
+SEÑALES EN EL INPUT: "define", "explica qué es", "traduce", "lista", "resume"
+
+PLANTILLA BASE:
+"[Instrucción directa]: [tu contenido o pregunta]."
+
+EJEMPLO REAL:
+"Explica qué es la Segunda Guerra Mundial en 5 oraciones para alguien de preparatoria."
+
+MÁS EJEMPLOS:
+- Biología: "Define qué es la mitosis."
+- Literatura: "Resume la trama de Cien años de soledad."
+- Historia: "Lista 5 causas de la Revolución Francesa."
+
+--------------------------------------------------------------
+TÉCNICA 2: Instruction + Output Format
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le dices a la IA QUÉ hacer Y cómo quieres que te responda. Es de las técnicas más útiles porque controlas el formato del output.
+
+ÚSALA CUANDO: Cuando necesitas la respuesta en un formato específico: tabla, bullets, pasos, resumen corto, etc.
+
+NO LA USES CUANDO: Conversaciones casuales o cuando el formato no importa.
+
+SEÑALES EN EL INPUT: "en formato tabla", "en bullet points", "en X pasos", "resumido en X palabras", "para nivel [X]"
+
+PLANTILLA BASE:
+"[Instrucción]. Responde en [formato]: [bullets / tabla / pasos / párrafo de X palabras]."
+
+EJEMPLO REAL:
+"Explica el teorema de Pitágoras. Responde en 5 bullet points, lenguaje simple, para alguien de secundaria."
+
+MÁS EJEMPLOS:
+- "Compara la célula animal y vegetal en una tabla con 4 columnas."
+- "Dame 3 argumentos a favor del cambio climático, formato numerado."
+- "Explica la fotosíntesis en máximo 50 palabras."
+
+--------------------------------------------------------------
+TÉCNICA 3: Role Prompting
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le asignas un rol experto a la IA antes de hacer tu pregunta. Esto mejora la calidad y profundidad de la respuesta porque el modelo "adopta" esa perspectiva.
+
+ÚSALA CUANDO: Cuando necesitas una explicación experta, retroalimentación profesional o perspectiva especializada.
+
+NO LA USES CUANDO: Cálculos puros o tareas muy objetivas donde el rol no agrega valor.
+
+SEÑALES EN EL INPUT: "explica como...", "desde la perspectiva de...", "como si fueras...", "actúa como tutor de..."
+
+PLANTILLA BASE:
+"Eres un [rol experto en X]. [Instrucción]: [tu tarea o pregunta]."
+
+EJEMPLO REAL:
+"Eres un profesor universitario de química orgánica. Explica qué son los enlaces covalentes con un ejemplo cotidiano."
+
+MÁS EJEMPLOS:
+- "Eres un editor literario. Revisa este párrafo y dime cómo mejorarlo: [texto]"
+- "Eres un tutor de cálculo. Ayúdame a entender qué son las derivadas."
+- "Eres un abogado. Explica en términos simples qué es un contrato mercantil."
+
+--------------------------------------------------------------
+TÉCNICA 4: Chain-of-Thought (CoT)
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le pides a la IA que razone paso a paso antes de darte la respuesta final. Esto mejora drásticamente los resultados en problemas complejos.
+
+ÚSALA CUANDO: Matemáticas, física, lógica, análisis de textos, problemas con varios pasos.
+
+NO LA USES CUANDO: Preguntas simples de hecho o definición — agrega pasos innecesarios.
+
+SEÑALES EN EL INPUT: "resuelve paso a paso", "calcula", "analiza", "demuestra", "explica el proceso"
+
+PLANTILLA BASE:
+"Resuelve esto paso a paso, mostrando cada paso claramente: [tu problema]."
+
+EJEMPLO REAL:
+"Resuelve paso a paso: Si un tren sale a 80 km/h y otro a 60 km/h en sentido contrario, ¿en cuánto tiempo se encuentran si parten a 280 km de distancia?"
+
+MÁS EJEMPLOS:
+- "Analiza paso a paso las causas de la caída del Imperio Romano."
+- "Resuelve paso a paso este sistema de ecuaciones: [ecuaciones]"
+- "Explica paso a paso cómo funciona la fotosíntesis."
+
+==============================================================
+TIER 2 — TÉCNICAS AVANZADAS (para tareas complejas)
+==============================================================
+
+--------------------------------------------------------------
+TÉCNICA 5: Few-Shot Prompting
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le das 2-5 ejemplos del formato que quieres ANTES de hacer tu pregunta real. El modelo aprende el patrón y lo replica.
+
+ÚSALA CUANDO: Cuando necesitas un formato muy específico y repetible: tablas, clasificaciones, análisis estructurados.
+
+NO LA USES CUANDO: Tareas creativas o únicas donde los ejemplos limitan la respuesta.
+
+SEÑALES EN EL INPUT: "clasifica como en el ejemplo", "sigue este formato", "igual que estos casos"
+
+PLANTILLA BASE:
+"Ejemplo 1: [entrada] → [salida]. Ejemplo 2: [entrada] → [salida]. Ahora haz lo mismo con: [tu caso]."
+
+EJEMPLO REAL:
+"Palabra: Veloz → Sinónimos: rápido, ágil, ligero. Palabra: Triste → Sinónimos: Palabra: Brillante → Sinónimos:"
+
+MÁS EJEMPLOS:
+- Clasificar elementos químicos siguiendo el patrón de un ejemplo dado.
+- Crear un timeline histórico con el mismo formato de 3 eventos previos.
+- Corregir oraciones gramaticales usando 3 correcciones de ejemplo.
+
+--------------------------------------------------------------
+TÉCNICA 6: Tree of Thoughts (ToT)
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le pides a la IA que explore múltiples caminos o enfoques, los evalúe, y desarrolle el mejor. Ideal para planeación y decisiones complejas.
+
+ÚSALA CUANDO: Proyectos, estrategias, ensayos argumentativos, planificación de estudios o investigaciones.
+
+NO LA USES CUANDO: Problemas con una sola respuesta correcta — agrega complejidad innecesaria.
+
+SEÑALES EN EL INPUT: "explora opciones", "planifica", "evalúa estrategias", "qué enfoque conviene más"
+
+PLANTILLA BASE:
+"Para [meta/problema], genera 3 enfoques posibles. Evalúa cada uno en términos de [criterio]. Desarrolla el mejor en detalle."
+
+EJEMPLO REAL:
+"Para mi tesis sobre sustentabilidad urbana, genera 3 enfoques de investigación. Evalúa cada uno por profundidad, originalidad y viabilidad en 6 meses. Desarrolla el mejor."
+
+MÁS EJEMPLOS:
+- "Genera 3 estructuras posibles para mi ensayo argumentativo sobre IA. Evalúa cuál es más persuasiva."
+- "Explora 3 métodos para estudiar para el examen de cálculo. Elige el más eficiente."
+- "Dame 3 estrategias de marketing para un emprendimiento escolar. Evalúa costo y alcance."
+
+--------------------------------------------------------------
+TÉCNICA 7: Meta Prompting
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le pides a la IA que primero diseñe el prompt ideal para tu tarea, y luego lo ejecute. Útil cuando no sabes bien cómo pedir algo.
+
+ÚSALA CUANDO: Cuando tienes una idea vaga de lo que quieres pero no sabes cómo estructurar el prompt.
+
+NO LA USES CUANDO: Tareas rutinarias donde ya tienes una plantilla que funciona.
+
+SEÑALES EN EL INPUT: "no sé cómo pedirlo", "crea un prompt para...", "optimiza mi instrucción", "ayúdame a preguntar esto mejor"
+
+PLANTILLA BASE:
+"Genera el prompt ideal para lograr [objetivo]. Luego ejecútalo."
+
+EJEMPLO REAL:
+"Genera el prompt ideal para pedirte que me expliques la Guerra Fría de forma visual, comparativa y fácil de memorizar para un examen. Luego ejecútalo."
+
+MÁS EJEMPLOS:
+- "Crea el mejor prompt para que me ayudes a estructurar mi tesis de ingeniería. Luego úsalo."
+- "¿Cómo debería preguntarte para que me des el mejor plan de estudio para estadística?"
+- "Genera un prompt para que analices este código y me digas cómo mejorarlo. Luego úsalo: [código]"
+
+--------------------------------------------------------------
+TÉCNICA 8: Program of Thoughts (PoT)
+--------------------------------------------------------------
+
+DESCRIPCIÓN: Le pides a la IA que resuelva el problema escribiendo código (generalmente Python) en lugar de texto. Garantiza precisión en cálculos complejos.
+
+ÚSALA CUANDO: Cálculos numéricos grandes, estadística, simulaciones, análisis de datos, física computacional.
+
+NO LA USES CUANDO: Tareas cualitativas, ensayos, análisis de textos — no tiene sentido usar código.
+
+SEÑALES EN EL INPUT: "calcula con datos", "procesa esta tabla", "simula", "dame el resultado exacto de"
+
+PLANTILLA BASE:
+"Escribe código Python para resolver: [problema]. Muestra el código y el resultado final."
+
+EJEMPLO REAL:
+"Escribe código Python para calcular el promedio, la mediana y la desviación estándar de estas calificaciones: [89, 76, 92, 85, 78, 95, 88, 71, 84, 90]."
+
+MÁS EJEMPLOS:
+- "Escribe código para simular el lanzamiento de un dado 1000 veces y mostrar la distribución."
+- "Procesa esta tabla de datos en Python y dame la correlación entre columna A y B: [datos]"
+- "Calcula la trayectoria de un proyectil con velocidad inicial 50 m/s y ángulo 45°."
+
+==============================================================
+RESUMEN RÁPIDO — ¿Cuándo usar cada técnica?
+==============================================================
+
+Zero-Shot              → Definiciones, traducciones, preguntas directas              | Básico
+Instruction + Format   → Controlar el formato de la respuesta                        | Básico
+Role Prompting         → Explicaciones expertas, retroalimentación                   | Básico
+Chain-of-Thought       → Matemáticas, lógica, análisis paso a paso                  | Básico
+Few-Shot               → Tareas con patrón repetible y formato fijo                  | Avanzado
+Tree of Thoughts       → Proyectos, estrategias, planeación compleja                 | Avanzado
+Meta Prompting         → Cuando no sabes cómo estructurar tu prompt                  | Avanzado
+Program of Thoughts    → Cálculos numéricos, estadística, simulaciones               | Avanzado
+
+Guía creada como parte del sistema PromptKit para estudiantes universitarios. Basada en papers de arXiv, OpenAI y IBM Research.

@@ -57,11 +57,11 @@ async function uploadDocument(file) {
         method: "POST",
         body: JSON.stringify({
             content: text,
-            metadata: { filename: file.name, uploaded_at: new Date().toISOString() },
+            categoria: "prompting",
+            nombre_doc: file.name,
         }),
     });
 }
-
 function readFileText(file) {
     return new Promise((resolve, reject) => {
         const reader = new FileReader();

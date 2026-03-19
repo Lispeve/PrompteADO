@@ -1,0 +1,208 @@
+MATRIZ DE DECISIÓN — PromptKit para Estudiantes
+Tarea del estudiante → Técnica de prompting → IAs recomendadas
+
+Cómo usar esta matriz: Identifica la categoría de tu tarea (columna izquierda), localiza el tipo de actividad específica, y sigue la recomendación de técnica y herramientas. Las IAs marcadas con [GRATIS] son gratuitas o tienen plan free robusto. Las marcadas con [PAGO] requieren pago o tienen free muy limitado. El nivel de complejidad indica qué tan avanzado debe ser el prompt.
+
+==============================================================
+CATEGORÍA: REDACCIÓN ACADÉMICA
+==============================================================
+
+TAREA: Ensayo argumentativo / Artículo de opinión / Ensayo filosófico
+TÉCNICA RECOMENDADA: Role + CoT
+POR QUÉ: Necesitas perspectiva experta (Role) y estructura lógica del argumento (CoT)
+IAs GRATUITAS: ChatGPT (GPT-4o mini), Claude.ai (free), Gemini (free)
+IAs DE PAGO: Claude Pro, ChatGPT Plus
+NIVEL: Intermedio Tier 1-2
+
+TAREA: Informe técnico / de laboratorio / Reporte STEM / Abstract
+TÉCNICA RECOMENDADA: Instruction + Output Format
+POR QUÉ: El formato es rígido (APA, IEEE). Necesitas controlar la estructura exacta del output
+IAs GRATUITAS: ChatGPT (free), Gemini, Claude.ai
+IAs DE PAGO: Notion AI (estructura), Grammarly Premium
+NIVEL: Básico Tier 1
+
+TAREA: Paráfrasis / evitar plagio / Corrección de estilo / Revisión gramatical
+TÉCNICA RECOMENDADA: Role Prompting
+POR QUÉ: Asignar rol de 'editor académico' mejora la calidad y el tono de las sugerencias
+IAs GRATUITAS: Quillbot (free tier), ChatGPT, Gemini
+IAs DE PAGO: Quillbot Pro, Grammarly Pro
+NIVEL: Básico Tier 1
+
+==============================================================
+CATEGORÍA: INVESTIGACIÓN Y SÍNTESIS
+==============================================================
+
+TAREA: Revisión de literatura / Estado del arte / Resumen de papers
+TÉCNICA RECOMENDADA: Role + Instruction Format
+POR QUÉ: Role de 'investigador' + formato de tabla extrae info estructurada de textos complejos
+IAs GRATUITAS: Perplexity AI (free), NotebookLM (free), ChatGPT
+IAs DE PAGO: Consensus Pro, Elicit Pro, Perplexity Pro
+NIVEL: Intermedio Tier 1-2
+
+TAREA: Simplificar conceptos difíciles / Entender jerga técnica / Nivel ELI5
+TÉCNICA RECOMENDADA: Role + CoT
+POR QUÉ: Role de 'tutor paciente' + CoT genera explicaciones progresivas y analogías útiles
+IAs GRATUITAS: ChatGPT (free), Gemini, Claude.ai, Socratic (app)
+IAs DE PAGO: AI-Tutor.ai Pro, Khanmigo
+NIVEL: Básico Tier 1
+
+TAREA: Búsqueda con fuentes citadas / Verificación de datos / Investigación rápida
+TÉCNICA RECOMENDADA: Zero-Shot (en Perplexity)
+POR QUÉ: Perplexity está diseñado para búsqueda con citas. Zero-Shot basta — es su función nativa
+IAs GRATUITAS: Perplexity AI, You.com, Bing Copilot
+IAs DE PAGO: Perplexity Pro, Consensus Pro
+NIVEL: Básico Tier 1
+
+==============================================================
+CATEGORÍA: MATEMÁTICAS Y CIENCIAS EXACTAS
+==============================================================
+
+TAREA: Álgebra, cálculo, ecuaciones / Problemas paso a paso / Física / Química
+TÉCNICA RECOMENDADA: Chain-of-Thought
+POR QUÉ: CoT obliga al modelo a mostrar cada paso lógico — reduce errores y facilita aprendizaje
+IAs GRATUITAS: ChatGPT (free), Gemini, Wolfram Alpha (básico), Photomath (app)
+IAs DE PAGO: Photomath Plus, Wolfram Alpha Pro
+NIVEL: Básico Tier 1
+
+TAREA: Estadística con datos / Cálculos numéricos precisos / Análisis de datasets
+TÉCNICA RECOMENDADA: Program of Thoughts (PoT)
+POR QUÉ: Fuerza al modelo a generar código Python ejecutable — garantiza precisión matemática
+IAs GRATUITAS: ChatGPT (Code Interpreter), Julius AI (free tier)
+IAs DE PAGO: Gemini Advanced, Julius AI Pro, ChatGPT Plus
+NIVEL: Avanzado Tier 2
+
+TAREA: Preparar examen de ciencias / Banco de problemas de práctica / Tutoría adaptativa
+TÉCNICA RECOMENDADA: Role + CoT
+POR QUÉ: Role de 'tutor socrático' + CoT genera práctica guiada sin dar la respuesta directa
+IAs GRATUITAS: ChatGPT, Gemini, Photomath, Khan Academy (free)
+IAs DE PAGO: Khanmigo, Photomath Plus
+NIVEL: Intermedio Tier 1-2
+
+==============================================================
+CATEGORÍA: PROGRAMACIÓN Y CÓDIGO
+==============================================================
+
+TAREA: Depurar errores (debugging) / Entender código ajeno / Pair programming
+TÉCNICA RECOMENDADA: Role + CoT
+POR QUÉ: Role de 'dev senior' + CoT identifica el error lógico y explica el porqué sin dar solución directa
+IAs GRATUITAS: ChatGPT (free), Gemini, Codeium (free), GitHub Copilot (estudiantes free)
+IAs DE PAGO: Cursor Pro, GitHub Copilot Pro
+NIVEL: Intermedio Tier 1-2
+
+TAREA: Generar código desde cero / Traducir entre lenguajes / Documentar funciones
+TÉCNICA RECOMENDADA: Instruction + Output Format
+POR QUÉ: Especificar lenguaje, restricciones y formato de salida produce código limpio y usable
+IAs GRATUITAS: ChatGPT, Codeium, Blackbox AI (free)
+IAs DE PAGO: Cursor, GitHub Copilot, Replit Agent
+NIVEL: Intermedio Tier 1-2
+
+==============================================================
+CATEGORÍA: PRESENTACIONES E INFOGRAFÍAS
+==============================================================
+
+TAREA: Estructura de diapositivas / Guion del expositor / Preguntas anticipadas del jurado
+TÉCNICA RECOMENDADA: Instruction + Output Format
+POR QUÉ: Controlar la estructura exacta (N slides, qué va en pantalla vs qué se dice) es clave
+IAs GRATUITAS: Gamma.app (free), ChatGPT, Gemini
+IAs DE PAGO: Gamma Pro, Beautiful.ai
+NIVEL: Básico Tier 1
+
+TAREA: Infografía visual / Poster académico / Material de apoyo visual
+TÉCNICA RECOMENDADA: Zero-Shot (en herramienta visual)
+POR QUÉ: Herramientas de diseño IA entienden prompts directos — no se necesita técnica compleja
+IAs GRATUITAS: Canva (free + IA), Microsoft Designer (free), Adobe Express (free)
+IAs DE PAGO: Canva Pro, Ideogram Pro
+NIVEL: Básico Tier 1
+
+==============================================================
+CATEGORÍA: ESTRATEGIAS DE ESTUDIO
+==============================================================
+
+TAREA: Flashcards y cuestionarios / Simulacro de examen / Identificar lagunas de conocimiento
+TÉCNICA RECOMENDADA: Role + CoT
+POR QUÉ: Role de 'examinador estricto' + CoT genera preguntas progresivas con feedback explicativo
+IAs GRATUITAS: ChatGPT, NotebookLM (free), Gemini, TutorAI (free)
+IAs DE PAGO: AI-Tutor.ai Pro, Khanmigo
+NIVEL: Básico Tier 1
+
+TAREA: Plan de estudio personalizado / Organización del semestre / Técnica Pomodoro adaptada
+TÉCNICA RECOMENDADA: Tree of Thoughts
+POR QUÉ: ToT genera múltiples estrategias, las evalúa y desarrolla la óptima según restricciones del estudiante
+IAs GRATUITAS: ChatGPT, Gemini, Claude.ai
+IAs DE PAGO: Motion (planeación automática), Reclaim.ai
+NIVEL: Avanzado Tier 2
+
+==============================================================
+CATEGORÍA: CREATIVIDAD Y HUMANIDADES
+==============================================================
+
+TAREA: Cuento / narrativa creativa / Guion teatral / Poema / letra
+TÉCNICA RECOMENDADA: Role + Few-Shot
+POR QUÉ: Role de 'editor literario' + ejemplos del estilo deseado guía el tono sin bloquear la creatividad
+IAs GRATUITAS: ChatGPT, Claude.ai (mejor para escritura), Gemini
+IAs DE PAGO: Sudowrite (para ficción larga), Claude Pro
+NIVEL: Intermedio Tier 1-2
+
+TAREA: Análisis literario o artístico / Comparar estilos de autores / Crítica de obra
+TÉCNICA RECOMENDADA: Role + CoT
+POR QUÉ: Role de 'crítico literario' + CoT descompone el análisis en capas (contexto, forma, fondo, impacto)
+IAs GRATUITAS: ChatGPT, Claude.ai, Gemini
+IAs DE PAGO: Claude Pro (análisis profundo)
+NIVEL: Intermedio Tier 1-2
+
+==============================================================
+CATEGORÍA: IDIOMAS Y TRADUCCIÓN
+==============================================================
+
+TAREA: Práctica conversacional / Corregir gramática en L2 / Preparar examen de idioma
+TÉCNICA RECOMENDADA: Role Prompting
+POR QUÉ: Role de 'hablante nativo y tutor' activa correcciones naturales, modismos y fluidez contextual
+IAs GRATUITAS: ChatGPT, Duolingo (free), Gemini
+IAs DE PAGO: Duolingo Max, Claude Pro
+NIVEL: Básico Tier 1
+
+TAREA: Traducción técnica (médica, legal, científica) / Preservar terminología específica
+TÉCNICA RECOMENDADA: Instruction + Output Format
+POR QUÉ: Especificar dominio, glosario y restricciones garantiza precisión terminológica en la traducción
+IAs GRATUITAS: DeepL (free), ChatGPT, Gemini
+IAs DE PAGO: DeepL Pro, Claude Pro
+NIVEL: Intermedio Tier 1-2
+
+==============================================================
+CATEGORÍA: ANÁLISIS DE DATOS
+==============================================================
+
+TAREA: Limpiar y procesar dataset / Visualizaciones y gráficos / Estadística descriptiva
+TÉCNICA RECOMENDADA: Program of Thoughts (PoT)
+POR QUÉ: PoT genera código Python/R ejecutable para análisis exacto — evita errores aritméticos del LLM
+IAs GRATUITAS: ChatGPT (Code Interpreter), Julius AI (free)
+IAs DE PAGO: Gemini Advanced, Julius AI Pro, ChatGPT Plus
+NIVEL: Avanzado Tier 2
+
+TAREA: Codificación cualitativa / Analizar entrevistas o encuestas / Identificar patrones temáticos
+TÉCNICA RECOMENDADA: Role + Instruction Format
+POR QUÉ: Role de 'investigador cualitativo' + formato estructurado extrae temas con citas exactas del texto
+IAs GRATUITAS: NotebookLM (free), ChatGPT, Claude.ai
+IAs DE PAGO: Claude Pro, Elicit Pro
+NIVEL: Avanzado Tier 2
+
+==============================================================
+CATEGORÍA: NO SÉ QUÉ PEDIR
+==============================================================
+
+TAREA: Tarea vaga o poco clara / No sabes estructurar el prompt / Primera vez con ese tema
+TÉCNICA RECOMENDADA: Meta Prompting
+POR QUÉ: Meta Prompting le pide a la IA que diseñe el prompt ideal primero — luego lo ejecuta automáticamente
+IAs GRATUITAS: ChatGPT, Claude.ai, Gemini
+IAs DE PAGO: Claude Pro, ChatGPT Plus
+NIVEL: Avanzado Tier 2
+
+==============================================================
+LEYENDA DE NIVELES
+==============================================================
+
+Básico — Tier 1: Técnicas Zero-Shot, Instruction+Format, Role, CoT. Funcionan en cualquier IA gratuita.
+Intermedio — Tier 1-2: Combinas técnicas básicas. Mejores resultados con GPT-4o o Claude.
+Avanzado — Tier 2: Few-Shot, ToT, Meta, PoT. Requieren prompts más elaborados y modelos capaces.
+
+Matriz creada para el sistema PromptKit — Basada en Guía de Técnicas de Prompting, Informe Global de Benchmarking IA 2025-2026 y Taxonomía de Tareas Académicas con IA.

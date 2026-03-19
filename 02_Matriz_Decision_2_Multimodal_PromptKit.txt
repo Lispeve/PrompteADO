@@ -1,0 +1,171 @@
+MATRIZ DE DECISIÓN 2 — Contenido Multimodal · PromptKit
+Tarea visual/audiovisual → Técnica de prompting → IAs recomendadas
+
+Cómo usar esta matriz: Identifica qué tipo de contenido necesitas crear (imagen, video, audio, presentación o contenido para redes). Sigue la técnica recomendada y las IAs sugeridas.
+[GRATIS] = plan gratuito real y funcional
+[PAGO] = requiere pago o free muy limitado
+[SIN FREE] = sin acceso gratuito desde 2026
+
+Esta matriz complementa la Matriz 1 — úsalas juntas para tareas que combinan texto y contenido visual.
+
+==============================================================
+CATEGORÍA: IMÁGENES ACADÉMICAS
+==============================================================
+
+TAREA: Poster para feria científica / Diagrama biológico o químico / Ilustración para tesis
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting
+POR QUÉ: Necesitas precisión visual total: sujeto, estilo, iluminación y calidad deben estar explícitos para resultados académicos
+IAs GRATUITAS: Ideogram (free, mejor para texto en imagen), Adobe Firefly (25 créditos/mes), Leonardo.ai (free generoso), Microsoft Designer (gratis)
+IAs DE PAGO: Midjourney (desde $10/mes), DALL-E 3 (vía ChatGPT Plus)
+NIVEL: Intermedio Tier Visual 1
+
+TAREA: Infografía limpia sin distracciones / Diagrama técnico (circuitos, planos) / Gráfica científica minimalista
+TÉCNICA RECOMENDADA: Negative Prompting
+POR QUÉ: Eliminar elementos no deseados (texto borroso, fondos sucios, distorsiones) es clave para material académico limpio
+IAs GRATUITAS: Leonardo.ai (soporta --no nativo), Ideogram, Adobe Firefly
+IAs DE PAGO: Midjourney (--no nativo), Stable Diffusion (local, avanzado)
+NIVEL: Intermedio Tier Visual 1
+
+TAREA: Serie de imágenes para portafolio / Ilustraciones consistentes para tesis / Refinamiento de imagen hasta lograr el resultado ideal
+TÉCNICA RECOMENDADA: Iterative/Refinement Prompting
+POR QUÉ: Cuando el primer resultado no es suficiente — se ajusta por partes: estilo, colores, composición, hasta que quede perfecto
+IAs GRATUITAS: Leonardo.ai (ideal para iteraciones), Adobe Firefly, ChatGPT + DALL-E
+IAs DE PAGO: Midjourney (Vary Region), Adobe Photoshop Generative Fill
+NIVEL: Avanzado Tier Visual 2
+
+==============================================================
+CATEGORÍA: DISEÑO Y BRANDING ESTUDIANTIL
+==============================================================
+
+TAREA: Logo para proyecto o emprendimiento escolar / Manual de marca básico / Identidad visual rápida
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting
+POR QUÉ: Describir el concepto, paleta de colores y estilo tipográfico con precisión genera logos coherentes con la identidad buscada
+IAs GRATUITAS: Ideogram (excelente para logos con texto), Microsoft Designer, Canva IA (Magic Studio, 50 usos gratis)
+IAs DE PAGO: Looka (pago por descarga), Brandmark (desde $25 único)
+NIVEL: Básico Tier Visual 1
+
+TAREA: Poster publicitario para evento escolar / Banner para redes del proyecto / Material de presentación visual
+TÉCNICA RECOMENDADA: Visual/Descriptive + Negative Prompting
+POR QUÉ: Combinar descripción detallada con negativos evita los resultados genéricos de 'stock' y produce materiales más únicos
+IAs GRATUITAS: Canva IA (drag & drop + IA), Microsoft Designer, Adobe Express (free)
+IAs DE PAGO: Canva Pro ($15/mes), Adobe Firefly Pro
+NIVEL: Intermedio Tier Visual 1-2
+
+==============================================================
+CATEGORÍA: VIDEO ACADÉMICO
+==============================================================
+
+TAREA: Video explicativo para presentación / Clips de stock para proyecto multimedia / Video de divulgación científica
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting
+POR QUÉ: Especificar escena, movimiento de cámara, iluminación y duración genera clips más útiles para contextos educativos
+IAs GRATUITAS: InVideo AI (free con marca de agua), Luma Dream Machine (free limitado), Runway (pocos créditos gratis)
+IAs DE PAGO: Runway Gen-3 (suscripción), HeyGen (avatar presentador), Sora (sin free desde 2026)
+NIVEL: Avanzado Tier Visual 2
+
+TAREA: Video para redes sociales (TikTok, Reels) / Corto animado para proyecto de comunicación / Demo visual de producto/prototipo
+TÉCNICA RECOMENDADA: Iterative/Refinement Prompting
+POR QUÉ: Los videos requieren múltiples iteraciones: primero el concepto, luego el estilo, luego detalles de movimiento — no sale perfecto al primer intento
+IAs GRATUITAS: InVideo AI, Luma Dream Machine, Runway (free tier)
+IAs DE PAGO: Runway Pro, HeyGen Pro, Sora Plus ($20/mes)
+NIVEL: Avanzado Tier Visual 2
+
+TAREA: Presentación con avatar/presentador virtual / Video de tesis o defensa grabada / Tutorial educativo con voz sincronizada
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting
+POR QUÉ: Para avatares y lip-sync se necesita describir el rol, tono y guion con precisión — el prompt es la dirección de actuación
+IAs GRATUITAS: HeyGen (1 min gratis de prueba), Synthesia (demo limitado)
+IAs DE PAGO: HeyGen Pro, Synthesia ($29/mes), Murf.ai + video manual
+NIVEL: Avanzado Tier Visual 2
+
+==============================================================
+CATEGORÍA: AUDIO Y VOZ
+==============================================================
+
+TAREA: Narración para video o presentación / Voz en off para documental escolar / Locución para e-learning o tutorial
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting (de voz)
+POR QUÉ: Especificar tono (formal, cálido, enérgico), velocidad, género de voz e idioma produce locuciones precisas para el contexto
+IAs GRATUITAS: ElevenLabs (free tier, 10k caracteres/mes), Murf.ai (10 min gratis, sin descarga), NotebookLM Audio (100% gratis)
+IAs DE PAGO: ElevenLabs Starter ($5/mes), Murf.ai Basic ($19/mes), Murf.ai Pro ($26/mes)
+NIVEL: Básico Tier Visual 1
+
+TAREA: Podcast de estudio o resumen de materia / Audio explicativo de paper o capítulo / Material de repaso para escuchar en transporte
+TÉCNICA RECOMENDADA: Zero-Shot (en NotebookLM)
+POR QUÉ: NotebookLM genera el podcast automáticamente desde tus documentos — no necesita técnica compleja, solo subir el material
+IAs GRATUITAS: NotebookLM (100% gratuito), ElevenLabs (free)
+IAs DE PAGO: ElevenLabs Pro (para voz clonada)
+NIVEL: Básico Tier Visual 1
+
+==============================================================
+CATEGORÍA: MÚSICA PARA PROYECTOS
+==============================================================
+
+TAREA: Banda sonora para video académico / Música de fondo para presentación / Jingle para proyecto de marketing
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting (de audio)
+POR QUÉ: Especificar género, tempo, instrumentos, duración y emoción produce música más ajustada al tono del proyecto
+IAs GRATUITAS: Suno AI (10 canciones/día gratis), Beatoven.ai (free, sin licencia comercial), Udio (free tier para pruebas)
+IAs DE PAGO: Suno Pro ($8-10/mes, con derechos), Udio Standard ($12/mes, derechos comerciales), Soundful Premium
+NIVEL: Básico Tier Visual 1
+
+TAREA: Canción original para proyecto de música o comunicación / Letra + melodía para tarea creativa / Música de género específico para análisis
+TÉCNICA RECOMENDADA: Few-Shot + Descriptive Prompting
+POR QUÉ: Dar ejemplos del estilo deseado + descripción detallada del género y letra guía el modelo hacia resultados más consistentes y menos 'lotería'
+IAs GRATUITAS: Suno AI (free, mejor para géneros populares), Udio (free, mejor para jazz/electrónica)
+IAs DE PAGO: Suno Pro, Udio Standard
+NIVEL: Intermedio Tier Visual 1-2
+
+==============================================================
+CATEGORÍA: PRESENTACIONES CON IA VISUAL
+==============================================================
+
+TAREA: Presentación completa desde texto o prompt / Reporte visual para clase / Pitch de proyecto o emprendimiento
+TÉCNICA RECOMENDADA: Instruction + Output Format (Matriz 1)
+POR QUÉ: Gamma y herramientas similares entienden instrucciones de formato directas — indicar número de slides, tono y estructura produce el mejor resultado
+IAs GRATUITAS: Gamma.app (400 créditos gratis, aprox. 10 presentaciones), Canva IA (presentaciones con Magic Design)
+IAs DE PAGO: Gamma Pro ($15/mes, ilimitado), Beautiful.ai, Tome
+NIVEL: Básico Tier Visual 1
+
+TAREA: Infografía interactiva para proyecto de investigación / Sitio web o microsite para proyecto final / Dashboard visual de resultados
+TÉCNICA RECOMENDADA: Iterative/Refinement Prompting
+POR QUÉ: Estas piezas complejas requieren varios ciclos de ajuste: estructura primero, luego diseño, luego contenido — Gamma permite editar por chat
+IAs GRATUITAS: Gamma.app (editor por chat), Canva IA
+IAs DE PAGO: Gamma Pro, Framer IA
+NIVEL: Intermedio Tier Visual 1-2
+
+==============================================================
+CATEGORÍA: CONTENIDO PARA REDES SOCIALES
+==============================================================
+
+TAREA: Post para LinkedIn de proyecto universitario / Carrusel de Instagram para difusión académica / Story visual para evento escolar
+TÉCNICA RECOMENDADA: Visual/Descriptive + Instruction Format
+POR QUÉ: Combinar descripción visual con instrucciones de formato de red social (proporción, texto corto, paleta) produce contenido listo para publicar
+IAs GRATUITAS: Canva IA (templates por red social), Microsoft Designer, Adobe Express
+IAs DE PAGO: Canva Pro, Ocoya (texto + imagen + programación)
+NIVEL: Básico Tier Visual 1
+
+TAREA: Video corto para TikTok/Reels explicativo / Animación simple para difusión científica / Contenido de marketing para emprendimiento escolar
+TÉCNICA RECOMENDADA: Visual/Descriptive Prompting
+POR QUÉ: Para video corto de redes la descripción debe incluir formato vertical, duración máxima y gancho visual en los primeros 3 segundos
+IAs GRATUITAS: InVideo AI (free con marca de agua), Canva Video (animaciones básicas)
+IAs DE PAGO: InVideo AI Pro, Runway Pro, Opus Clip (repurposing)
+NIVEL: Intermedio Tier Visual 1-2
+
+==============================================================
+CATEGORÍA: DICTADO Y ESCRITURA POR VOZ
+==============================================================
+
+TAREA: Dictar ensayo o reporte en lugar de escribir / Transcribir ideas rápido para organizar después / Accesibilidad: redactar sin teclado
+TÉCNICA RECOMENDADA: Zero-Shot (herramienta nativa)
+POR QUÉ: Estas herramientas no necesitan técnica compleja — el prompt ES la voz del estudiante. Solo hay que aprender a dictar con pausas naturales
+IAs GRATUITAS: Wispr Flow (2,000 palabras/semana gratis), Otter.ai (300 min/mes gratis), Google Docs (dictado nativo gratis)
+IAs DE PAGO: Wispr Flow Pro ($15/mes), Otter.ai Pro
+NIVEL: Básico Tier Visual 1
+
+==============================================================
+LEYENDA DE NIVELES
+==============================================================
+
+Básico Tier Visual 1: Técnica directa, funciona bien en free. Cualquier estudiante puede usarla desde el primer día.
+Intermedio Tier Visual 1-2: Combinas técnicas o necesitas iterar. Mejores resultados con planes de pago básicos.
+Avanzado Tier Visual 2: Video / contenido complejo. Requiere práctica y generalmente algún plan de pago.
+Sin acceso gratuito desde 2026 (ej. Sora). Usa alternativas free indicadas en la misma fila.
+
+Matriz 2 — Contenido Multimodal · PromptKit para estudiantes universitarios. Basada en Guía de Técnicas de Prompting Visual, Informe de Benchmarking IA 2025-2026 y Taxonomía de Tareas Académicas con IA. Úsala junto con la Matriz 1 (tareas de texto) para cobertura completa.
