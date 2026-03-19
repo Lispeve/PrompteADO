@@ -1,10 +1,10 @@
 ﻿import { useState, useRef, useEffect } from "react";
 
 // ─── CONFIG (reemplaza con tus keys reales) ───────────────────────────────────
-const SUPABASE_URL = "https://orebyrpptlqxeuqqdpax.supabase.co";
-const SUPABASE_ANON_KEY = "sb_publishable_VKBVGdZcTiScgh4bRVujaA_FrAT3gVG";
-const GROQ_API_KEY = "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";
-const ADMIN_EMAIL = "lisetteperezv@gmail.com";
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY;
+const ADMIN_EMAIL = import.meta.env.VITE_ADMIN_EMAIL;
 const GROQ_MODEL = "llama-3.3-70b-versatile";
 
 // ─── SUPABASE HELPERS ─────────────────────────────────────────────────────────
