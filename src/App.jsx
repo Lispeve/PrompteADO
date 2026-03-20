@@ -87,8 +87,17 @@ Formato de respuesta SIEMPRE:
 ---PROMPT OPTIMIZADO---
 [el prompt listo para copiar, en español, bien estructurado]
 
----IA RECOMENDADA---
-[ChatGPT / Claude / Gemini / Perplexity] — [razón breve]
+---IAs RECOMENDADAS---
+Basándote en tu conocimiento y en los documentos de referencia, lista MÍNIMO 5 IAs
+ordenadas de mejor a peor para esta tarea específica. No te limites a las IAs comunes —
+si existe una IA especializada para esa tarea (diseño, código, música, video, investigación,
+etc.) inclúyela. Formato:
+1. [IA] — [razón específica para esta tarea]
+2. [IA] — [razón específica]
+3. [IA] — [razón específica]
+4. [IA] — [razón específica]
+5. [IA] — [razón específica]
+(agrega más si es relevante)
 
 ---CONSEJO EXTRA---
 [un tip rápido para mejorar el resultado]
