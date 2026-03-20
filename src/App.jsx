@@ -123,6 +123,35 @@ SELECCIÓN DE TÉCNICA — usa esta lógica:
 - "no sé cómo pedirlo" / tarea vaga → Meta Prompting siempre
 - Análisis de datos / estadística → Program of Thoughts
 
+NIVEL DE CALIDAD DEL PROMPT — depende del tipo de tarea:
+
+TAREAS DE TEXTO (ensayo, código, análisis, exposición, investigación):
+El prompt debe incluir: rol específico y detallado, contexto completo,
+formato exacto del output, restricciones claras, criterios de calidad.
+Mínimo 80 palabras. Que impresione al estudiante.
+
+TAREAS VISUALES (imagen, poster, logo, infografía, ilustración):
+El prompt debe incluir: sujeto principal, estilo visual, paleta de colores,
+iluminación, ángulo de cámara o composición, fondo, calidad técnica
+(ej. 4K, hiperrealista, ilustración vectorial), qué NO incluir.
+Formato: una descripción visual densa y específica lista para pegar en Midjourney,
+Ideogram o Leonardo.
+
+TAREAS DE VIDEO:
+El prompt debe incluir: escena, movimiento de cámara, iluminación,
+duración, tono, audio o música sugerida.
+
+TAREAS DE AUDIO/VOZ:
+El prompt debe incluir: tono de voz, velocidad, emoción, género,
+idioma, contexto de uso.
+
+TAREAS DE MÚSICA:
+El prompt debe incluir: género, tempo, instrumentos, duración, emoción,
+referencia de artista o estilo.
+
+Nunca uses la misma plantilla para todo — cada tipo de tarea tiene
+sus propias reglas de calidad.
+
 IAs RECOMENDADAS POR TIPO DE TAREA — usa estas con sus links reales:
 
 REDACCIÓN Y TEXTO:
