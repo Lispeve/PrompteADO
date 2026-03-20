@@ -786,7 +786,7 @@ const styles = {
     chatEmpty: { display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", height: 200, textAlign: "center" },
     chatInputArea: { padding: "8px 12px 16px" },
     chatInputRow: { display: "flex", gap: 8, alignItems: "flex-end" },
-    chatInput: { flex: 1, padding: "10px 14px", borderRadius: 10, border: "none", fontSize: 14, fontFamily: "inherit", resize: "none", background: "white" },
+    chatInput: { flex: 1, padding: "10px 14px", borderRadius: 10, border: "none", fontSize: 14, fontFamily: "inherit", resize: "none", background: "white", color: "#111" },
     sendBtn: { padding: "10px 16px", background: "#cc0000", color: "white", border: "none", borderRadius: 10, fontSize: 20, cursor: "pointer" },
     attachBtn: { padding: "10px", background: "rgba(255,255,255,0.15)", border: "none", borderRadius: 10, fontSize: 18, cursor: "pointer", color: "white" },
     msgUser: { background: "#1a1a6e", color: "white", padding: "10px 14px", borderRadius: "12px 12px 4px 12px", fontSize: 14, marginLeft: 40 },
