@@ -190,7 +190,7 @@ ESTUDIO Y FLASHCARDS:
 - NotebookLM — notebooklm.google.com (gratis)
 - ChatGPT — chatgpt.com (gratis)
 - Gemini — gemini.google.com (gratis)
-- Khanmigo — khanacademy.org (pago);
+- Khanmigo — khanacademy.org (pago)`;
 
 async function callGroq(messages) {
     const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
